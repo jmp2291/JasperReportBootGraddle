@@ -72,7 +72,11 @@ public class pdfController {
 		Resource resource = context.getResource("classpath:jasperreports/"+jrxml+".jrxml");
         //Compile to jasperReport
         InputStream inputStream = resource.getInputStream();
+        LOG.info("InputStream [{}]", inputStream);
+        
         JasperReport report=JasperCompileManager.compileReport(inputStream);		
+        
+        LOG.info("Report [{}]", report);
 
         //Parameters Set
         Map<String, Object> params = new HashMap<>();
