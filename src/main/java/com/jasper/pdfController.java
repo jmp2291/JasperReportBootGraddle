@@ -152,10 +152,10 @@ public class pdfController {
     }
 
     private void setTemplate2(Map<String, Object> params){
-        params.put("metadataform_generico_wisa_mp_nombrecompleto", "Juan Perez Sanchez");
-        params.put("metadataform_generico_wisa_mp_identificadorcliente", "12345678");
-        params.put("metadataform_condiciones_tratamiento_datos_personales_mgd_fecha", "08/11/2022");
-        params.put("metadataform_condiciones_tratamiento_datos_personales_mgd_no", "X");
-        params.put("metadataform_condiciones_tratamiento_datos_personales_mgd_si", "X");
+        params.put("metadataform", "Juan Perez Sanchez");
+        params.put("metadataform_generico_", "12345678");
+        params.put("metadataform_1", "08/11/2022");
+        params.put("metadataform_2", "X");
+        params.put("metadataform_3", "X");
     }
 }
