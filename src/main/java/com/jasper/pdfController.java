@@ -98,4 +98,44 @@ public class pdfController {
         //Export PDF Stream
         JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
     }
+
+    @GetMapping(path = "pdf/jasper")
+	@ResponseBody
+    public void getPdfToJasper(@RequestParam("path") Optional<String> path,@RequestParam("template_code") Optional<String> template_code, @RequestParam("extension") Optional<String> extension,HttpServletResponse response) throws IOException, JRException, ClassNotFoundException, SQLException{
+		LOG.info("Path is [{}], Template is [{}], Extension is [{}].", path.get(), template_code.get(), extension.get());
+        Resource resource = context.getResource("classpath:"+ path.get() + "/"+template_code.get()+"."+extension.get());
+        //Compile to jasperReport
+        InputStream inputStream = resource.getInputStream();
+        LOG.info("InputStream [{}]", inputStream);
+       
+        //Parameters Set
+        Map<String, Object> params = new HashMap<>();
+        //Deadline deadline=new Deadline();
+        //params=deadline.getParameter();
+        //params.put("no", no.orElse(null));
+        //params.put("date", date.orElse(null));
+        
+        //LOG
+        //LOG.info("Template is [{}]. params is [{}] date is [{}]", template_code,params,deadline.nowdate);
+        
+
+        
+        //Data source Set
+        JRDataSource dataSource = new JREmptyDataSource();
+        //Make jasperPrint
+        JasperReport report = null;
+        JasperPrint jasperPrint = null;
+        
+        if(extension.get().equals("jrxml")){
+            report=JasperCompileManager.compileReport(inputStream);		
+            jasperPrint = JasperFillManager.fillReport(report, params, dataSource);
+        }else{
+            jasperPrint = JasperFillManager.fillReport(inputStream, params, dataSource);
+        }
+        
+        //Media Type
+        response.setContentType(MediaType.APPLICATION_PDF_VALUE);
+        //Export PDF Stream
+        JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
+    }
 }
