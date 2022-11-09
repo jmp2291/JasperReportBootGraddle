@@ -20,5 +20,29 @@
         <pdfEncoding>Identity-H</pdfEncoding>
         <pdfEmbedded>true</pdfEmbedded>
     </fontFamily>
+
+    <fontFamily name="Arial">
+        <normal><![CDATA[fonts/arial/arial.ttf]]></normal>
+        <bold><![CDATA[fonts/arial/arialbd.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="Arial Narrow">
+        <normal><![CDATA[fonts/arialnarrow/arialn.ttf]]></normal>
+        <bold><![CDATA[fonts/arialnarrow/arialnb.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="Calibri">
+        <normal><![CDATA[fonts/calibri/calibri-regular.ttf]]></normal>
+        <bold><![CDATA[fonts/calibri/calibri-bold.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
+
+    <fontFamily name="Helvetica">
+        <normal><![CDATA[fonts/helvetica/helvetica.ttf]]></normal>
+        <bold><![CDATA[fonts/helvetica/helvetica-bold.ttf]]></bold>
+        <pdfEmbedded><![CDATA[true]]></pdfEmbedded>
+    </fontFamily>
  
 </fontFamilies>
