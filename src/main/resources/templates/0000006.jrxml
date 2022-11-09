@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.19.0.final using JasperReports Library version 6.19.0-646c68931cebf1a58bc65c4359d1f0ca223c5e94  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="qa_condiciones_libre_disponibilidad" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a50b4709-4a33-4765-aa12-afb240438ab4">
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="802" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="2" y="89" width="550" height="81" uuid="2ef0a881-e3fe-47a6-862e-ffe33dda1331"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<text><![CDATA[Conste por el presente documento las Condiciones Generales de Contratación aplicables al Contrato de Crédito (en adelante las Condiciones Generales) que celebran; de una parte SCOTIABANK PERU SAA con RUC N° 20100043140, a quien en adelante se le denominará el Banco, y de la otra parte el Cliente; cuyos datos, conjuntamente con los de su cónyuge, de ser el caso, quien interviene a fin de prestar su consentimiento y adhesión a los términos y condiciones del contrato que aparecen en la solicitud <font color="#000000"><b>física o virtual</b></font> (en adelante la Solicitud) y Contrato de Crédito.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="155" width="180" height="20" uuid="ca936b42-bf5b-49dd-97e2-08d2ce54233d"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[OBJETIVO DEL CONTRATO]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="170" width="549" height="65" uuid="ec7d03b3-a860-4a44-8ac6-8b6cd96c8ea6"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<text><![CDATA[A solicitud del Cliente, el Banco conviene en realizar una evaluación crediticia y, de acuerdo a ello, otorgar al Cliente un crédito de libre disponibilidad (el Crédito) Todo lo señalado por el Cliente en este Contrato y en la Solicitud tendrá carácter de declaración jurada en aplicación de lo dispuesto en el artículo 179 de la Ley N° 26702, Ley General del Sistema Financiero y del Sistema de Seguros y Orgánica de la Superintendencia de Banca y Seguros (en adelante Ley de Bancos).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="227" width="191" height="20" uuid="d5a01824-c126-4159-8ac5-c88d686eeb96"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[DEL CREDITO]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="5" width="100" height="40" uuid="55383919-c160-481d-b3ae-e8e2c14077eb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="1" y="155" width="11" height="21" uuid="186a8cc8-2f22-442b-beb3-7c01ffa1b406"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[I)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="227" width="11" height="21" uuid="9add6f2c-0368-47f6-b20d-9779f788c029"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[II)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="790" width="191" height="12" forecolor="#5E5C5C" uuid="1e1ec00a-6e89-41ae-8fc4-3cabdef8b9dc"/>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[S.0052/03.2022]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="707" width="549" height="80" uuid="b3ef2883-ca5b-4e30-ab31-a93ce640acd5"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[3.- EMISIÓN DEL TITULO VALOR
+El Banco podrá requerir al Cliente la emisión y suscripción de un pagaré emitido a la orden del Banco de manera incompleta, de conformidad con lo establecido en el artículo 10 de la Ley de Títulos Valores y en la Circular G-0090-2001, habiendo obtenido del Banco una copia del mencionado título valor. Frente al incumplimiento de las obligaciones a cargo del Cliente, el Banco queda facultado a completar el pagaré antes indicado con el monto que resulte de las obligaciones vencidas o que hubieran sido dadas por vencidas,]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="243" width="550" height="207" uuid="be9b1e76-b363-4928-ae98-144c79b4b413"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[1.- IMPORTE Y MONEDA DEL CRÉDITO<br>
+El importe solicitado por el Cliente es un monto máximo, sujeto a evaluación crediticia del Banco. Por lo tanto el Cliente conoce que, como resultado de <font color="#000000"><b>dicha</b></font> evaluación, el monto finalmente aprobado podría ser menor al solicitado o incluso podría no otorgarse el Crédito. El desembolso del crédito se realizará en: i) una cuenta de ahorros u otra que el Cliente tenga en el Banco o instruya abrir de acuerdo al numeral 21; o ii) de acuerdo a lo señalado en la Solicitud, para compra de deuda.<br>
+El Banco podrá suspender o cancelar los desembolsos si: i) el Cliente incumple con las condiciones establecidas en este Contrato; ii) el Banco toma conocimiento que el Cliente está siendo investigado por lavado de activos, actos de corrupción, delitos precedentes y/o financiamiento del terrorismo por las autoridades competentes o si son vinculados con personas naturales o jurídicas sujetas a investigación o proceso judiciales relacionados con los hechos antes mencionados; iii) si el Cliente se encuentra en listas o registros de sanciones locales o internacionales (sanciones UIF, UN, OSFAC, OSFI, entre otras); o iv) si varían las condiciones crediticias bajo las cuales fue aprobado el Crédito; bastando para ello una comunicación escrita al Cliente. El ejercicio de esta facultad por parte del Banco no generará a favor del Cliente derecho de reclamar para sí el pago de suma alguna por ningún concepto ni la aplicación de penalidad en contra del Banco. Sin perjuicio de ello el CLIENTE podrá efectuar otros requerimientos o reclamos de acuerdo al numeral 17 del Contrato.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-17" y="39" width="582" height="35" uuid="1173f354-3838-42fa-836f-9df57be38575"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="html">
+					<font size="9" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CONDICIONES GENERALES DE CONTRATACIÓN APLICABLES AL CONTRATO DE CRÉDITO LIBRE DISPONIBILIDAD]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="417" width="552" height="343" uuid="781dd228-b627-4699-8182-69cf57aab301"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[2.- DEL PAGO DEL CRÉDITO Y PLAZO, PAGOS ANTICIPADOS Y ADELANTO DE CUOTAS<br>
+El Crédito se pagará en los plazos y montos establecidos en el Cronograma de Pagos definitivo (“el Cronograma”). <b>El</b> Banco se obliga a entregar el Cronograma definitivo, de acuerdo a la modalidad elegida por el Cliente, una vez realizado el desembolso. El pago del principal, intereses compensatorios, interés moratorio (o el concepto que permita la legislación vigente) por incumplimiento de pago oportuno, comisiones, gastos y otros conceptos del Crédito se hará en la misma moneda del Crédito, mediante el pago de cuotas mensuales según el Cronograma. Si el pago es realizado en moneda distinta, el Banco realizará la conversión según su tipo de cambio vigente en la fecha de la operación.<br>
+A solicitud del Cliente, El Banco podrá: i) conceder periodos de gracia para el pago del Crédito; y/o ii) diferir el pago de cuotas próximas a vencer en supuestos excepcionales. Los intereses compensatorios que se generen en dichos periodos serán capitalizables El Cliente puede efectuar el pago parcial o total del Crédito sin cobro de penalidad o comisión por dicho concepto. Los pagos mayores a la cuota exigible del periodo, pero menores al pago total de la obligación podrán calificarse como pagos anticipados o pagos adelantados. En caso de pagos anticipados (mayores a dos cuotas, incluida la exigible en el periodo) los intereses se reducirán proporcionalmente al día de pago y se reducirán las comisiones y los gastos que pudieran corresponder a la fecha de pago. El Cliente debe optar entre reducir el monto o número de las cuotas del Crédito y deberá dejar constancia de su elección en el formato que el Banco ponga a su disposición. Cuando el pago anticipado se efectúe a través de tercero, el Cliente deberá comunicar a través de instrucción efectuada por escrito su voluntad de reducir monto de cuota o reducir el plazo del Crédito de acuerdo a lo establecido en el Reglamento de Gestión de Conducta de Mercado del sistema Financiero. En caso no se cuente con instrucción del Cliente y dentro de los 15 días calendario de realizado el pago, el Banco procederá a reducir el número de cuotas del crédito. En caso que el Cliente solicite el Cronograma modificado, el Banco deberá remitirlo en un plazo no mayor a 7 días calendario contados desde la solicitud.<br> 
+Asimismo el Cliente puede efectuar adelanto de cuotas (menores o iguales al equivalente de dos cuotas, incluida la exigible en el periodo), el cual se aplicará a la cuota exigible completa y lo restante como pago a cuenta de la cuota próxima a vencer; sin que se produzca reducción de intereses, comisiones y gastos.<br>
+Sin perjuicio de lo señalado anteriormente, el Cliente podrá decidir aplicar su pago por encima de la cuota exigible en el periodo, ya sea como pago parcial anticipado o como adelanto de cuotas.]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="49" width="551" height="744" uuid="d5bacad4-16c0-42d3-a1c9-c85ab4f66fdd"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="9" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[que el Cliente mantenga frente al Banco, incluidos los intereses compensatorios, interés moratorio (o el concepto que permita la legislación vigente) por incumplimiento de pago oportuno, comisiones y otros cargos producto del Crédito, cualquiera sea la moneda en la cual haya sido pactada. El Cliente renuncia expresamente a su derecho a incluir en el mencionado pagaré una cláusula que limite la transferencia del pagaré, reconociendo el derecho del Banco a negociar libremente el referido título valor. El Cliente declara tener conocimiento de los mecanismos de protección que la ley permite para la emisión o aceptación de títulos valores incompletos. La firma del pagaré no afecta el derecho de cobro del Banco ni modificará o sustituirá el Crédito o el contrato. En caso el mencionado pagaré se extraviara o se dañara de cualquier forma, el Banco seguirá teniendo los mismos derechos frente al Cliente para el cobro del Crédito que resulte del presente contrato.<br>
+<br>
+4.- AUTORIZACIÓN AL DÉBITO Y DERECHO DE COMPENSACIÓN<br>
+Si el Crédito fuera aprobado en el marco de convenios de descuento por planilla o Prestabono, el Cliente desde ya y de manera irrevocable faculta al Banco a debitar, como medio de pago, sus obligaciones derivadas del Crédito contra los saldos de sus cuentas en las que les sean abonadas sus remuneraciones, bajo el <i>marco</i> de los límites establecidos por la legislación vigente.<br>
+Adicionalmente, el Cliente de manera expresa autoriza al Banco a amortizar y/o cancelar las cuotas del Crédito o cualquier otro concepto vencido y exigible aplicable a la fecha de pago, con cargo a cualquiera de los depósitos y/o cuentas que mantenga en el Banco, incluidas las cuentas en las que perciba el pago de sus remuneraciones.<br>
+Sin perjuicio de lo señalado en los párrafos anteriores y en uso de la facultad establecida en el numeral 11 del artículo 132 de la Ley de Bancos y sus modificaciones, el Cliente conoce y acepta que el Banco podrá en cualquier momento y sin previo aviso, aplicar el pago de lo adeudado por principal, interés compensatorio, intereses moratorios (o el concepto que permita la legislación vigente) por incumplimiento de pago oportuno, comisiones, gastos y tributos exigibles determinados previamente en la Hoja Resumen o posteriores modificaciones, sobre cualquier cuenta, fondo, bien o valor que el Banco tenga en su poder y que esté destinado a ser acreditado, entregado o abonado al Cliente (con exclusión de los activos legal o contractualmente declarados intangibles o excluidos de este derecho, en aplicación de este acuerdo expreso, bajo el marco del numeral 11 del artículo 132 ya señalado), así como realizar cuando sea necesario, la correspondiente operación de cambio de monedas al tipo de cambio vigente en el Banco a la fecha de la operación antes señalada. Una vez efectuada la compensación, el Banco enviará una comunicación al Cliente indicando la ejecución.<br>
+<br>
+5.- INTERESES, COMISIONES, GASTOS Y OTROS CARGOS QUE SE APLICAN AL PAGO DEL CRÉDITO<br>
+Las partes convienen en que la tasa efectiva anual de interés (TEA), la tasa de costo efectivo anual (TCEA) comisiones, interés moratorio (o el concepto que permita la legislación vigente) por incumplimiento de pago oportuno y gastos aplicables al Crédito, han sido previa y efectivamente informados al Cliente y constan en la Hoja Resumen, que, firmada por el Cliente en señal de aceptación, forma parte del contrato, y se devengarán a partir de la fecha de suscripción del presente contrato o del desembolso del Crédito, según corresponda.
+Si el Cliente no cumple con el pago oportuno y total de sus obligaciones en las fechas establecidas incurrirá automáticamente en mora sin necesidad de intimación alguna.<br>
+Los importes adeudados por el Crédito que no sean cancelados por el Cliente en las oportunidades convenidas devengarán por todo el tiempo que demore su pago, además de los intereses compensatorios, un interés moratorio (o el concepto que permita la legislación vigente) por incumplimiento de pago oportuno, de acuerdo a lo establecido en la Hoja Resumen.<br>
+<br>
+6.- MODIFICACIONES CONTRACTUALES Y DE CRONOGRAMA<br>
+<br>
+El Cliente autoriza que las condiciones pactadas en el Contrato (distintas a las tasas de interés), las comisiones y/o gastos aplicables al Crédito, detallados en la Hoja Resumen, podrán ser modificados unilateralmente (o incorporados) por el Banco de acuerdo con lo dispuesto por el Reglamento de Gestión de Conducta de Mercado del Sistema Financiero, debiendo comunicar ello al Cliente con una anticipación de 45 días calendario, a través de los medios de comunicación directos señalados en el numeral 13 del Contrato. Si estas modificaciones tienen un impacto en el Cronograma, este se actualizará y el Banco lo remitirá al Cliente, reemplazando al anterior.<br>
+Las modificaciones antes señaladas podrán tener como causa – sin que se considere esta lista como limitativa – los siguientes eventos: i) hechos o normas que produzcan variaciones en las condiciones de mercado, de la política monetaria (incluido el encaje) o de la situación política o económica nacional o internacional; ii) crisis financiera; iii) cambios en sus estructuras de costos de los servicios vinculados al Crédito, sea por disposiciones legales, por decisiones comerciales del Banco o por encarecimiento de servicios prestados por terceros trasladados al Cliente, iv) condiciones o campañas promocionales; v) si por causa del Cliente no se constituye la garantía <font color="#000000"><b>que pudiese</b></font> haber requerido el Banco en un plazo de 60 días contados desde el desembolso del Crédito, o vi) si se produce un hecho o circunstancia que cambie las condiciones de riesgo y crédito bajo las cuales fue aprobado el Crédito.<br>
+Las tasas de interés se pueden modificar i) cuando se produce la novación del Crédito, ii) en caso de efectiva negociación, entre el Cliente y el Banco; iii) si la Superintendencia de Banca y Seguros así lo autoriza.<br>
+La comunicación previa no será exigible y el cambio se aplicará inmediatamente i) cuando la modificación sea en beneficio del Cliente; ii) cuando se modifique las cuotas por contratación directa de seguros de acuerdo a lo previsto en el numeral 9; y iii) en aplicación de los supuestos detallados en el numeral 19.<br>
+El Cliente de no estar conforme con dicha modificación podrá dar por concluido el Contrato de pleno derecho debiendo para ello: i) manifestar su disconformidad ante el Banco por escrito, ii) resolver expresamente este contrato y iii) proceder con el pago de todo el saldo deudor u obligación pendiente, para lo cual contará con el plazo indicado en la legislación vigente. ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="790" width="141" height="12" forecolor="#5E5C5C" uuid="ffe81d1e-7b8d-48b9-9dc3-56d51be2e367"/>
+				<textElement>
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[S.0052/03.2022]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="5" width="100" height="40" uuid="6aaeaa98-5db7-4098-a1e6-bd8a9aa53ddb">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="-1" y="129" width="550" height="278" uuid="3d49158b-f191-4c77-ba6d-156cfe2d2431"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="10" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[7.- INFORMACIÓN PERIÓDICA<br>
+Si el Cliente así lo solicita, el estado de situación del Crédito podrá ser puesto a su disposición sin costo por medios electrónicos (página web, correo electrónico indicado por el Cliente, entre otros). Por otro lado, el Cliente podrá solicitar al Banco el envío físico del estado de situación del Crédito a la dirección consignada por aquel, a través de los medios dispuestos por el Banco, debiendo asumir el costo que se señala en la Hoja Resumen. El CLIENTE es responsable de mantener actualizada la dirección o electrónica física a la cual indicó desea recibir el estado de situación. Si la dirección proporcionada no se encuentra apta o se hace imposible el envío del estado, El BANCO lo pondrá a disposición del CLIENTE a través de su página web u otros medios electrónicos como el app del BANCO.<br>
+<br>
+8.-REPROGRAMACIONES, PRÓRROGAS O REFINANCIACIONES<br>
+El Cliente acepta desde ya, en forma expresa e irrevocable, las reprogramaciones y/o prórrogas del crédito que el Banco efectúe en forma unilateral como consecuencia de (i) disposiciones y normas especiales aplicables al Cliente de ser el caso, o (ii) por motivo de reducción – por mandato legal o judicial – en el porcentaje afecto a los descuentos mensuales o en los ingresos netos, por parte de su empleador en la planilla de remuneraciones u otros beneficios que le correspondan de acuerdo a ley; o (iii) si se verifica que la cuota mensual no ha sido abonada por el empleador del Cliente al Banco en su totalidad, por motivos ajenos al CLIENTE, generando el incumplimiento de pago de las cuotas del Crédito. En dichas situaciones el Banco hará entrega al Cliente de su respectivo Cronograma estando el Banco autorizado a remitirlo en momento posterior, ya sea al domicilio del Cliente o a través de medios electrónicos a solicitud de este.<br>
+Por otro lado, a solicitud del Cliente, el Banco podrá evaluar la procedencia de un refinanciamiento en caso de incumplimiento del pago de las cuotas del Crédito. El Crédito refinanciado se sujetará a nuevas condiciones contempladas en el presente documento y a los documentos a través de los cuales el Cliente haya solicitado el refinanciamiento. El Cliente declara conocer que dicho refinanciamiento podría implicar una recalificación de su perfil crediticio. El Banco acuerda con el Cliente que, producto del refinanciamiento se podrán capitalizar los intereses compensatorios.
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="407" width="260" height="20" uuid="042e2bf6-0cdd-4044-b97b-5b1106781812"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[III) DISPOSICIONES GENERALES]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="-1" y="422" width="551" height="365" uuid="312ebabd-9b54-4e92-87d7-72c78ced6d40"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial" size="10" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[9.- SEGUROS Y OTROS<br>
+El Cliente deberá contratar y mantener el seguro de desgravamen por todo el plazo del Crédito (y mientras mantenga obligaciones de pago con el Banco (derivadas de la ejecución del Contrato).<br>
+Este seguro otorga cobertura contra los riesgos de fallecimiento, así como invalidez total y permanente por enfermedad o accidente. El seguro de desgravamen debe ser otorgado por la compañía de seguros a satisfacción del Banco, su cobertura y endoso debe ser por un monto y plazo a no menor al crédito aprobado. En caso de contratación directa por parte del Cliente, este deberá endosar y entregar la póliza del seguro al Banco, quien deberá ser el beneficiario exclusivo. <br>
+En caso ocurra alguno de los siniestros mencionados al Cliente o las personas aseguradas, el Banco cobrará directamente la indemnización para aplicarla al saldo insoluto de la deuda al dia de la ocurrencia del siniestro según la cobertura activada.<br>
+El Cliente puede contratar, si así lo elige, el seguro de desgravamen a través del Banco (cuyas características se encuentran descritas en la Hoja Resumen y en la página web del Banco) siendo este responsable de efectuar la contratación o renovación por instrucciones del CLIENTE; o directamente con la compañía de seguros de su elección. En este último caso el Cliente tomará en cuenta lo siguiente:<br>
+i) Los seguros cumplirán con las condiciones exigidas por el Banco, las que se encuentran también en la página web;<br>
+ii) Los seguros deben estar vigentes durante todo el plazo del Crédito; para lo cual el Cliente debe renovar el seguro las veces que sea necesario. Una vez renovada la póliza, esta deberá ser entregada al Banco junto con los sustentos de pago dentro de siete días anteriores al vencimiento de la póliza endosada, según lo indicado en el punto i);<br>
+iii) Comunicar al Banco tan pronto tenga conocimiento que los seguros han sido variados, modificados o suprimidos. Si la compañía de seguros exige nuevos requerimientos, el Cliente deberá cumplirlos; caso contrario será de su exclusiva responsabilidad no contar con los seguros vigentes o perder la cobertura de ser el caso;<br>
+En caso que el Cliente no contrate o no renueve los seguros conforme al párrafo anterior, el Banco estará facultado, más no obligado, para hacerlo por cuenta y cargo del Cliente, sin necesidad de comunicación previa en cuyo caso las primas serán adicionadas, al saldo de la deuda. Como consecuencia de ello se modificará el Cronograma cuya copia le será entregada al Cliente a su expresa solicitud. La falta de contratación o renovación de las pólizas de los seguros por parte del Banco (ante la falta de contratación directa o no renovación de las pólizas contratadas directamente por parte del Cliente) no le generan responsabilidad ni consecuencia (infraseguro o sobreseguro), ya que esta obligación le corresponde únicamente al Cliente.<br>
+El Cliente ha suscrito una declaración jurada de salud, junto con el certificado de seguro, cuya información es verdadera, completa y exacta. Si la declaración señalada tuviese vicios o inexactitudes imputables al Cliente, se perderá el derecho a la indemnización derivada del seguro y los herederos tendrán que asumir esta deuda con el Banco.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="782" width="181" height="20" forecolor="#5E5C5C" uuid="f5f285ed-504e-4e19-9f0c-7d3cbaf86442"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[S.0052/03.2022]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="5" width="100" height="40" uuid="f564cb70-c4f9-4738-997c-3c0e02a35a0a">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="0" y="46" width="550" height="86" uuid="fe64362c-4fb3-4c7e-9c73-026e562321c9"/>
+				<textElement textAlignment="Justified"/>
+				<text><![CDATA[La continuidad de los servicios o la falta de pago del saldo deudor en los plazos estipulados se entenderá que el Cliente no hace uso de su derecho a resolver el Contrato y en ese sentido, se empezarán a aplicar las condiciones modificadas desde el vencimiento del plazo del pre aviso. Siendo así, el silencio del Cliente constituye aceptación expresa de las modificaciones informadas por el Banco una vez transcurrido el plazo de preaviso. En caso de las modificaciones relacionadas a la incorporación de servicios que no están directamente relacionados a este Crédito, el Cliente tendrá la facultad de aceptarlo o no. La negativa del Cliente no implicará la resolución del Contrato.]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="-1" y="47" width="549" height="739" uuid="19f3bc85-facb-4166-be5d-30ecc7a05564"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font size="9" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[10.-DECLARACIONES DEL CLIENTE<br>
+El Cliente declara al momento de la solicitud y aceptación del Crédito:<br>
+a) Que, en caso de ser casado y estar bajo el régimen patrimonial de sociedad de gananciales, el Crédito será necesariamente utilizado en beneficio de la sociedad conyugal.<br>
+b) Que reconoce que el Banco, de forma directa o por medio de terceros autorizados, efectuarán las labores necesarias para la cobranza de las cuotas del Crédito y otros conceptos derivados del presente instrumento.<br>
+c) Que reconoce que el Banco no es responsable por la elección del Proveedor, la calidad, idoneidad, entrega y/o prestación del bien o servicio que haya sido financiado a través de este Crédito ni por cualquier otro factor relacionado a los mismos, por lo que el Cliente declara conocer que cualquier queja o reclamo será efectuado por él mismo directa y exclusivamente al Proveedor, al haberlo elegido libremente. Esto aplica en caso de abono a terceros distintos al Cliente.<br>
+d) Que conoce que el seguro regulado en el numeral 9 se rige por sus propias condiciones contenidas en las pólizas de seguros. El Cliente reconoce que es su responsabilidad mantener contratados y vigentes los seguros, cuando los haya contratado de manera directa.<br>
+e) Que no está siendo investigado por lavado de activos, actos de corrupción, delitos precedentes y/o financiamiento del terrorismo por las autoridades competentes; que no está vinculado con personas naturales o jurídicas sujetas a investigación o proceso judiciales relacionados con los hechos antes mencionados; o que no se encuentra en listas o registros de sanciones locales o internacionales (sanciones UIF, UN, OSFAC, OSFI, entre otras).<br>
+f) El Cliente declara conocer la existencia de la ley 31143, la cual dispone la obligación del Banco de emitir una constancia o certificado de no adeudo, los mismos que dentro del plazo de ley se encontrarán a disposición en los medios que se detallan en la Hoja Resumen. Asimismo, EL CLIENTE declara conocer que pondrá solicitar la constancia de no adeudo parcial correspondiente a la cancelación individual de su Crédito, sin perjuicio de que existan otras obligaciones impagas, en las agencias y oficinas o a través de los canales que se ponga a su disposición.<br>
+<br>
+11.-EVENTOS DE INCUMPLIMIENTO Y/O TERMINACIÓN ANTICIPADA<br>
+Sin perjuicio de los eventos de incumplimiento o causales de terminación anticipada señalados en otros numerales, el Banco podrá dar por vencidos todos los plazos otorgados al Cliente, o resolver el presente contrato; y, en ambos casos, exigir el pago inmediato del saldo del Crédito, así como los demás conceptos adeudados y liquidados por el Banco reflejados en la Hoja Resumen y permitidos por la legislación vigente, e iniciar las acciones judiciales para la ejecución de alguna garantía que el Cliente pudiera haber otorgado a requerimiento del Banco, de verificarse alguno de los siguientes supuestos:<br>
+<br>
+a) Si el Cliente incumpliera cualquier obligación del Contrato (dineraria o no dineraria) o si dejara de cumplir cualquier obligación frente al Banco en virtud de otro contrato (incluyendo el contrato de garantía mobiliaria que pudiera haber requerido el Banco).<br>
+b) Si el Cliente o el Fiador o el constituyente de garantías, que pudiera haber solicitado el Banco, incumpliera con cualquiera de las obligaciones establecidas en el contrato de garantías personales o reales relacionadas a este Crédito, incluyendo las referidas a la constitución, incremento, sustitución o cualquier modificación de garantías dentro de los plazos que se señalen en dichos contratos.<br>
+c) Si media disposición legal o mandato de autoridad competente que así lo autorice u ordene<br>
+d) Si a la fecha de celebración del contrato resultara que las personas aseguradas padecían de enfermedad diagnosticada o de su conocimiento, preexistente o -en su caso-la declaración de salud formulada para el seguro de desgravamen no fuese cierta o exacta y ello conlleve a que se haga imposible o pueda dejarse sin efecto el seguro.<br>
+e) Si las declaraciones señaladas en el numeral 10 y otras que pudieran estar en el Contrato se tornan falsas o inexactas durante la vigencia del Crédito.<br>
+f) Si el Banco considera que no resulta conveniente mantener relaciones comerciales con el Cliente i) por conducta intolerable del mismo frente al personal del Banco y/u otros clientes, en las oficinas del Banco o a través de otros canales disponibles; o ii) si el Banco, su casa matriz o sus afiliadas se vieran expuestos a contingencias regulatorias, contractuales o de cualquier tipo frente a autoridades locales o foráneas de mantener relación con el Cliente (p.e. si el Cliente se encontrase en listas de sanciones locales o internacionales en UIF, UN, OSFAC, OSFI, entre otros).<br>
+g) Si el Cliente o el Fiador (de ser el caso) son declarados insolventes o en quiebra, o se encuentran incursos en algún procedimiento concursal permitido por la legislación vigente.<br>
+En cualquiera de los casos arriba enumerados, el Banco podrá completar el pagaré suscrito por el Cliente por el importe que resulte de la liquidación que el Banco practique (lo cual incluirá los conceptos detallados en el numeral 5 que se hubiesen devengado), a fin de iniciar las acciones pertinentes. En tal caso no se producirá novación ni se liberarán o extinguirá la garantía mobiliaria que se hubiese podido otorgar en respaldo del Crédito.<br>
+La resolución de pleno derecho operará desde la fecha que señale, mediante aviso previo y por escrito al al Cliente. El Banco comunicará su decisión de terminar el Contrato a través de los mecanismos directos señalados en el numeral 13.<br>
+<br>
+12.-MODIFICACIÓN Y RESOLUCIÓN DEL CONTRATO SIN PREVIO AVISO<br>
+El Banco podrá modificar este contrato, por aspectos diferentes a las tasas de interés, comisiones y gastos, e incluso resolverlo, sin previo aviso como consecuencia de la aplicación de las normas prudenciales emitidas por la SBS tales como: i) las referidas a la administración del riesgo de sobreendeudamiento del Cliente (por asumir préstamos, fianzas, etc, bajo cualquier acuerdo con personas ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="781" width="191" height="21" forecolor="#5E5C5C" uuid="0302cd73-7619-43ff-b592-1448f6e1f888"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[S.0052/03.2022]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="5" width="100" height="40" uuid="5ed7056b-64a7-42c1-ad44-dccf6c35087f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="-1" y="781" width="171" height="21" forecolor="#5E5C5C" uuid="7c0f5aac-1656-42a9-8af7-9d196f758867"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[S. 0052/03.2022]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="5" width="80" height="20" uuid="bbbc0aa7-28b3-4b55-9991-7bb3b6476137">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="-1" y="42" width="552" height="698" uuid="90e2ba1a-afe1-403d-b66c-5d0623174299"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="SansSerif" size="9"/>
+				</textElement>
+				<text><![CDATA[naturales o jurídicas que conlleven a sobreendeudarse); ii) si el Banco detectase que el Cliente viene realizando operaciones inusuales, irregulares y/o sospechosas o que puedan causar perjuicios al Banco o a sus clientes siempre que el Cliente no haya acreditado el origen legal de sus fondos u operaciones en el plazo establecido; iii) si el Banco tomara conocimiento que el Cliente está siendo investigado o se presuma que está vinculado (directamente o por su vínculo por terceros) a actividades de lavado de activos, delitos precedentes y financiamiento del terrorismo; o iv) si producto de la evaluación, existen indicios que el Cliente haya presentado información y/o documentación falsa, incompleta, inexacta o inconsistente con la información declarada o proporcionada anteriormente. En estos supuestos la comunicación de la medida será posterior dentro de un plazo no mayor a los 7 días calendario de producido el cambio y/o resolución del contrato, a través de los medios de comunicación que correspondan de acuerdo a lo señalado en el numeral siguiente.<br>
+<br>
+13.-MEDIOS DE INFORMACIÓN<br>
+Son medios directos para comunicar los cambios y decisiones detallados en el numeral 6, <b>11 y 12</b> los siguientes medios físicos o electrónicos los cuales solo se mencionan a manera de ejemplo: i) el estado de situación del Crédito; ii) comunicaciones a la dirección de envío de correspondencia, correo electrónico y/o domicilio del Cliente; iii) llamadas telefónicas (teléfono fijo, celular, etc.); iv) notas de cargo o abono entregadas o enviadas por el Banco; v) vouchers de operaciones, enviados o entregados al Cliente; vi) mensajes texto (sms), vii) red de mensajería instantánea, virtual u aplicación software (apps descargadas en celulares, tablets computadoras o dispositivos similares). Son medio indirectos: i) publicaciones en las oficinas del Banco; ii) mensajes en cajeros automáticos; iii) mensajes en redes sociales y/o iv) mensajes a través de la página web del Banco, medios de comunicación social, avisos en cualquier diario, periódico, revista de circulación nacional, a elección del Banco. Estos medios se podrán usar de forma complementaria a los medios directos o para comunicar modificaciones que de acuerdo a la legislación vigente no requieran el uso de medios señalados en el párrafo precedente.<br>
+<br>
+14.- FORMAS DE IDENTIFICACIÓN, CONTRATACIÓN E INSTRUCCIONES<br>
+El Cliente podrá solicitar y contratar este Crédito o dar instrucción al Banco, en forma personal o empleando los diversos medios sean presenciales o no presenciales o no escritos que el Banco ponga a disposición del Cliente y que éste reconoce como válidos para dichos efectos. Para efectuar las instrucciones, solicitar productos, aceptar términos y condiciones, celebrar contratos, o realizar las operaciones antes señaladas a través de sus oficinas o mediante canales electrónicos como la web Scotia en Línea, Banca Móvil, banca telefónica, cajeros automáticos, aplicaciones móviles (en celulares o tablets), ATMs u otros mecanismos que el Banco ponga a su disposición, el Cliente reconoce como mecanismos válidos para su identidad así como para otorgar su manifestación de voluntad, entre otros, el uso de claves de identificación; firmas manuscritas, digitales o electrónicas; biometría, huella, voz y otros medios análogos que el Banco ponga a disposición a través de sus plataformas.<br>
+De realizarse esta modalidad de contratación, dentro de los quince (15) días calendario posteriores, el Cliente podrá acceder a la documentación contractual correspondiente. El Cliente acuerda con el Banco, que la entrega de esta documentación se realizará mediante puesta a disposición en la web del Banco o envío por algún medio electrónico.<br>
+ <br>
+15.-DOMICILIO<br>
+Para efectos de este contrato, el Cliente señala como su domicilio el indicado la Solicitud, donde se dirigirán todas las comunicaciones y/o notificaciones judiciales y extrajudiciales. Cualquier variación de domicilio, para su validez, deberá ser comunicada por escrito al Banco, surtiendo efecto a partir de los 30 días siguientes a su entrega al Banco, requisito sin el cual las comunicaciones serán válidas y surtirán todos los efectos legales cuando hayan sido notificadas las comunicaciones dirigidas a la dirección anterior.<br>
+<br>
+16.-CESIÓN<br>
+EL BANCO queda autorizado por el Cliente a ceder los créditos y demás derechos provenientes de este contrato o su posición contractual en el mismo, total o parcialmente, para lo cual el Cliente presta desde ya su conformidad por adelantado. La comunicación de la cesión se efectuará mediante un documento de fecha cierta.<br>
+Si el Banco decidiese ceder los derechos que se derivan del presente contrato incluidas las garantías, la comunicación fehaciente de esta cesión podrá ser realizada indistintamente por el Banco o por el cesionario en cualquier momento, incluso en el momento mismo en que el cesionario exija al Cliente el pago de las cuotas que conforman el Crédito.<br>
+ <br>
+17.- RECLAMOS, LEGISLACIÓN APLICABLE Y JURISDICCIÓN COMPETENTE<br>
+En caso de disconformidad con los servicios financieros proporcionados por el Banco, el Cliente podrá presentar su reclamo a través banca telefónica, oficinas y cualquier otro canal que el Banco implemente e informe al Cliente. La respuesta del Banco no limita el derecho del Cliente a recurrir, en caso lo considere pertinente, a las instancias administrativas, judiciales y/o arbitrales correspondientes.<br>
+El presente contrato y sus Anexos se rigen por los términos y condiciones en ellos establecidos, los dispositivos legales mencionados en el mismo, el Código Civil, la Ley 26702 y sus modificatorias, y demás normas legales que resulten aplicables. Las partes se someten a la jurisdicción y competencia de los jueces y tribunales de la ciudad en la que se celebra el Contrato, sin perjuicio de lo cual el Banco podrá recurrir a la del domicilio del Cliente para el cobro de sus acreencias.]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement mode="Transparent" x="0" y="789" width="181" height="13" forecolor="#5E5C5C" backcolor="#FFFFFF" uuid="cc0a0069-1cca-4ae7-82e8-9579e9c65c16"/>
+				<textElement>
+					<font fontName="Arial" isBold="false"/>
+				</textElement>
+				<text><![CDATA[S.0052/03.2022]]></text>
+			</staticText>
+			<image>
+				<reportElement x="3" y="4" width="80" height="20" uuid="c5da1ab2-e077-4a5f-91a4-8e70813daf9f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="-1" y="37" width="552" height="753" uuid="106ba2db-6e19-456c-9e1a-b5f1c8e3f35e">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Justified" markup="html">
+					<font fontName="Arial"/>
+				</textElement>
+				<text><![CDATA[18.-ACTUALIZACIÓN DE DATOS<br>
+Todos los datos del Cliente que este consigne en la Solicitud se consideran como vigentes y en tal sentido sustituirán y/o actualizarán los datos que a la fecha mantengan registrados en el Banco, de ser el caso. Las posteriores actualizaciones de los datos del Cliente podrán ser efectuados mediante comunicación escrita dirigida al Banco a través los mecanismos que el Banco ponga a su disposición.<br>
+<br> 
+IV) DISPOSICIONES ADICIONALES<br>
+19.-CONDICIONES PROMOCIONALES<br>
+A) Si El Cliente ha solicitado un crédito bajo la modalidad de Prestabono, Descuento por Planilla o cualquiera de sus variantes que se señalen en la Solicitud, el pago del crédito se realizará a través de cargos contractuales sobre: a) las remuneraciones que percibe en virtud de una relación laboral  y que se encuentren depositadas en el Banco o en otras instituciones (en virtud de la autorización brindada por el Cliente) o b) los ingresos regulares percibidos por el Cliente provenientes de sus servicios y depositados en cuentas para independientes y que se encuentren depositadas en el Banco. La aprobación de un crédito bajo la referida modalidad otorga al Cliente una tasa de interés compensatoria promocional que se encuentra detallada en la Hoja Resumen. Tanto el Cliente como el Banco, según corresponda la modalidad, conocen y aceptan que: i) en caso el Cliente reciba el préstamo y no cumpla con instruir a su empleador el pago de su remuneración a través de una cuenta de haberes en el Banco o aquel no abra o instruya abrir a un tercero la cuenta para independientes en la que percibe ingresos regulares dentro de los 60 días siguientes al desembolso; ii) en caso el Cliente efectúe el traslado de su remuneración depositada en cuentas del Banco hacia otra institución, iii) si se da por terminada la relación laboral del Cliente por cualquier causa, o iv) si  la cuenta para independientes no recibe depósitos es un plazo de 60 días contados desde el último depósito; ya no será aplicable la condición promocional relacionada a la tasa de interés compensatoria, procediendo el Banco a aplicar, desde que toma conocimiento de alguno de los hechos antes señalados, la tasa de interés compensatoria convencional que figura también en la Hoja Resumen.<br>
+B) Ocurrido cualquiera de los supuestos mencionados anteriormente, el Banco entregará posteriormente al Cliente, dentro de un plazo no mayor a treinta (30) días calendario un nuevo Cronograma al Cliente en la modalidad escogida por él y registrada en el Banco. En caso de no haber escogido algún medio, el Cliente autoriza al Banco a entregar el cronograma nuevo a través de medios electrónicos (correos electrónicos y otras modalidades directas) o a la dirección que el Cliente haya consignado en su Solicitud.<br>
+<br>
+ 20.-FIADORES<br>
+Intervienen en el presente documento el Fiador, y de ser el caso su cónyuge, (en adelante el/los Fiador/es) cuyos datos personales aparecen en la Solicitud, con el objeto de responder solidariamente por el cumplimiento de todas y cada una de las obligaciones asumidas por el Cliente en virtud del otorgamiento del crédito personal a que se refiere el presente documento o que se deriven de éste, de conformidad por el artículo 1183° y las siguientes del Código Civil.<br>
+El/los Fiador/es deja/n expresa constancia que su fianza es de plazo indeterminado, además de solidaria es indivisible e ilimitada, o sea que cubre el capital, intereses compensatorios, interés moratorio (o el concepto aplicable por incumplimiento de pago oportuno que la legislación vigente permita) tributos de haberlos, comisiones, gastos y cualquier otra deuda u obligación directa e indirecta, existente o futura de cargo del Cliente.<br>
+El/los Fiador/es se obliga/n a intervenir como tales en las prórrogas o refinanciaciones que el Banco pueda otorgar al Cliente, dejando expresa constancia que aún cuando no intervenga en dichas operaciones de crédito, queda entendido que está en la voluntad de las partes que el/los Fiador/es y el Cliente habrá de responder como una sola persona frente al Banco hasta la total cancelación de las obligaciones derivadas del crédito personal antes mencionado, o que se deriven de ellas sin reserva ni limitación alguna, hayan intervenido o no en las mencionadas prórrogas o refinanciaciones. Sin perjuicio de lo anterior, el/los Fiador/es se obliga/n a suscribir como avalista/s el pagaré a que se refiere el numeral 3 del Contrato.<br>
+El/los Fiador/es autoriza/n al Banco para que en caso de incumplimiento pueda retener y/o aplicar a la amortización y/o cancelación de lo adeudado todos los saldos acreedores que pudieran existir en las cuentas que mantenga/n en el Banco, así como todo valor que tenga o pudiera llegar a tener en el Banco y que deba ser acreditado o abonado al Fiador para cubrir el importe adeudado, sin necesidad de pre aviso, de conformidad con lo establecido en el numeral 11 del Artículo 132 de la Ley de Bancos. Queda respaldado el derecho del/los Fiador/es de solicitar el detalle de la aplicación de sus saldos, valores o activos.<br>
+<br>
+ 21.- APERTURA DE CUENTAS<br>
+Por la operatividad del crédito, el Cliente presta su autorización para que el desembolso del CREDITO se realice sobre su cuenta individual en la misma moneda, que mantenga en el Banco. En caso no mantuviera una cuenta, el Cliente da su conformidad para que se abra a su nombre una Cuenta de Ahorro (que podrá ser Cuenta Free o Sueldo o similares).<br>
+Asimismo el Cliente autoriza e instruye al Banco para que este, en caso de incumplimiento de pago de las obligaciones dinerarias derivadas del Contrato, proceda a abrir una cuenta corriente sin chequera a efectos que se debite en la misma las obligaciones vencidas y exigibles antes indicadas, incluso sobregirándolas. Para tal efecto, bastará que se produzca el incumplimiento que faculte al Banco su cobro en forma parcial o total. El Banco remitirá al Cliente, con posterioridad al cargo, la nota de cargo y/o estado de cuenta respectivo con el detalle del concepto que origina el cargo.<br>
+Los términos y condiciones de la cuenta corriente y la cuenta de ahorros serán puestos a disposición por el Banco en la página web . El Cliente se obliga a formalizar la firma de los documentos correspondientes al contrato de apertura en las agencias del Banco. Son de aplicación a la cuenta corriente las disposiciones de la Ley N° 26702 el Reglamento de Cuentas Corrientes, la Ley de Títulos Valores, sus disposiciones legales modificatorias y todas aquellas que le resulten aplicables.]]></text>
+			</staticText>
+		</band>
+		<band height="802">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="-1" y="212" width="549" height="79" uuid="d326518e-bd14-4587-aea1-466845c93f51"/>
+				<textElement textAlignment="Justified" markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Las Condiciones Generales que constan en el presente documento han sido aprobadas por la Superintendencia de Banca, Seguros y AFPs mediante la Resolución SBS N° 00843-2022 emitida el 15 de marzo de 2022. Las presentes condiciones se encuentran en la página web <font color="#3617E6"><u>www.scotiabank.com.pe</u></font> en la sección Préstamos / Libre disponibilidad /Documentos.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="780" width="181" height="22" forecolor="#5E5C5C" uuid="409f4709-8eaa-4677-bf8a-ce9a3db3e81d"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[S.0052/03.2022]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="43" width="549" height="167" uuid="d24fd4a3-0f80-4510-a0f0-173020bc11c7"/>
+				<textElement textAlignment="Justified" markup="html"/>
+				<text><![CDATA[22.- RENOVACIÓN DEL CRÉDITO<br>
+La renovación del Crédito constituye una nueva operación de crédito. Los fondos serán utilizados para cancelar el saldo de Créditos vigentes, siendo la diferencia de libre disponibilidad para el Cliente. El crédito podrá ser desembolsado por un monto igual o mayor al crédito inicial o al precedente, en caso se hubieran dado más de una renovación.<br>
+Para uso de la renovación del Crédito, el Cliente podrá acercarse a los distintos canales de atención que el Banco ponga a disposición para estos efectos, suscribiendo o aceptando la solicitud de desembolso de renovación. El Cliente no requerirá suscribir un nuevo pagaré, siendo aplicable a las renovaciones del pagaré incompleto firmado por el Cliente para la operación original que se encuentra custodiado por el Banco, emitido de conformidad al CONTRATO. Cada renovación efectuada de acuerdo a lo aquí establecido generará un cronograma de pagos nuevo por el saldo de la última disposición. El Cliente solo podrá tener una operación vigente bajo esta modalidad. Suspensión de renovaciones: i) cuando exista un evento de incumplimiento <b>y/o terminación anticipada</b> bajo el numeral 11.Serán aplicables a cada renovación las condiciones generales de este Contrato (sobre todo los numerales 2, 4, 5 y 11)]]></text>
+			</staticText>
+			<image>
+				<reportElement x="5" y="9" width="80" height="20" uuid="e87e8546-eed7-456c-abc1-e7aed3771b44">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["templates/images/logoscotia.jpeg"]]></imageExpression>
+			</image>
+		</band>
+	</detail>
+</jasperReport>

@@ -109,7 +109,7 @@ public class pdfController {
         LOG.info("InputStream [{}]", inputStream);
        
         //Parameters Set
-        Map<String, Object> params = new HashMap<>();
+        Map<String, Object> params = getParamsToTemplate(template_code.get());
         //Deadline deadline=new Deadline();
         //params=deadline.getParameter();
         //params.put("no", no.orElse(null));
@@ -137,5 +137,25 @@ public class pdfController {
         response.setContentType(MediaType.APPLICATION_PDF_VALUE);
         //Export PDF Stream
         JasperExportManager.exportReportToPdfStream(jasperPrint, response.getOutputStream());
+    }
+
+    private Map<String, Object> getParamsToTemplate(String template_code){
+        Map<String, Object> params  = new HashMap<>(); 
+        switch (template_code) {
+            case "0000002":
+                setTemplate2(params);
+                break;        
+            default:
+                break;
+        }
+        return params;
+    }
+
+    private void setTemplate2(Map<String, Object> params){
+        params.put("metadataform_generico_wisa_mp_nombrecompleto", "Juan Perez Sanchez");
+        params.put("metadataform_generico_wisa_mp_identificadorcliente", "12345678");
+        params.put("metadataform_condiciones_tratamiento_datos_personales_mgd_fecha", "08/11/2022");
+        params.put("metadataform_condiciones_tratamiento_datos_personales_mgd_no", "X");
+        params.put("metadataform_condiciones_tratamiento_datos_personales_mgd_si", "X");
     }
 }
