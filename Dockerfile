@@ -3,8 +3,7 @@ EXPOSE 8080
 ARG JAR_FILE=build/libs/JasperReportBoot-0.0.2.jar
 COPY ${JAR_FILE} app.jar
 
-RUN apk --no-cache add msttcorefonts-installer fontconfig && \
-    update-ms-fonts && \
+RUN apk --no-cache add fontconfig ttf-dejavu && \    
     fc-cache -f
 
 ENV SPRING_PROFILES_ACTIVE=dev

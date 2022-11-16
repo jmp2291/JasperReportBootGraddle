@@ -4,9 +4,13 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.sql.Date;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Optional;
+import java.util.stream.Collectors;
 
 import javax.servlet.http.HttpServletResponse;
 
@@ -21,6 +25,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.data.util.Pair;
 
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.JREmptyDataSource;
@@ -142,20 +147,19 @@ public class pdfController {
     private Map<String, Object> getParamsToTemplate(String template_code){
         Map<String, Object> params  = new HashMap<>(); 
         switch (template_code) {
+            case "0000001":
+                params = SetDataTemplateUtil.setTemplate1(params);
+                break;
             case "0000002":
-                setTemplate2(params);
-                break;        
+                params = SetDataTemplateUtil.setTemplate2(params);
+                break;
+            case "0000007":
+                params = SetDataTemplateUtil.setTemplate7(params);
+                break;
             default:
                 break;
         }
         return params;
     }
-
-    private void setTemplate2(Map<String, Object> params){
-        params.put("metadataform", "Juan Perez Sanchez");
-        params.put("metadataform_generico_", "12345678");
-        params.put("metadataform_1", "08/11/2022");
-        params.put("metadataform_2", "X");
-        params.put("metadataform_3", "X");
-    }
+    
 }

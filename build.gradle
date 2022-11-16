@@ -27,6 +27,9 @@ ext['log4j2.version'] = '2.17.1'
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
+//	implementation 'org.springframework.boot:spring-boot-starter-webflux'
+	implementation 'org.springframework.boot:spring-boot-starter-data-jdbc'
+//	implementation 'io.r2dbc:r2dbc-mssql'
 	//JasperReport Library
 	implementation 'net.sf.jasperreports:jasperreports:6.20.0'
 	// DejaVu Font extensions
@@ -36,6 +39,7 @@ dependencies {
 	implementation 'net.sf.barcode4j:barcode4j:2.1'
 	// https://mvnrepository.com/artifact/org.apache.xmlgraphics/batik-bridge
 	// this need for barcode4j.
+	
 	implementation 'org.apache.xmlgraphics:batik-bridge:1.16'
 	// this for barcode4j is vulnerabilities
 	// https://mvnrepository.com/artifact/org.apache.ant/ant
@@ -53,6 +57,9 @@ dependencies {
 	// protected An illegal reflective access operation. for jasperreports
 	implementation 'xerces:xercesImpl:2.12.1'
 	
+	// https://mvnrepository.com/artifact/com.h2database/h2
+	implementation 'com.h2database:h2:2.1.214'
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
